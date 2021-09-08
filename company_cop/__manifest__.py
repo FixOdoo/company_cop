@@ -9,7 +9,7 @@
     'data': [
         'views/company_cop.xml'
     ],
-    'images': ['static/description/main_banner.png'],
+    'images': ['static/description/banner.png'],
     'license': 'AGPL-3',
     'version': '1.0',
     'installable': True,
