@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="company_cop_field" model="ir.ui.view">
+            <field name="name">Company.Cop</field>
+            <field name="model">res.company</field>
+            <field name="inherit_id" ref="base.view_company_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='website']" position="after">
+                    <field name="company_cop" widget="image" class="oe_avatar"/>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
+
+
+
